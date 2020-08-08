@@ -1,8 +1,10 @@
 ﻿## Coding Challenge 
 
+As part of the interview process for a Senior Software Engineer position, I was asked to complete this coding challenge.  The interviewer (also a Software Engineer) said that it was my time to show off.
+
 #### Contents from the email sent from Jed: 
 
-On Fri, Jul 17, 2020 at 1:33 PM Jed Dawson wrote:
+On Fri, Jul 17, 2020 at 1:33 PM Jed D. wrote:
 Hello Brett,
 
 Before we schedule the technical interview, please complete the following coding challenge. Please submit this challenge within 7 days if possible.  Using the .NET tools and technologies that you are most familiar with:
