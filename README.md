@@ -1,4 +1,6 @@
-﻿Contents from the email sent from Jed: 
+﻿## Coding Challenge 
+
+#### Contents from the email sent from Jed: 
 
 On Fri, Jul 17, 2020 at 1:33 PM Jed Dawson wrote:
 Hello Brett,
@@ -17,13 +19,13 @@ Thank you,
 
 Jed Dawson
 
-Initial Thoughts: 
-1) Simple form
-2) TextBox search bar.  
+#### Initial Thoughts 
+1) Simple `Form`
+2) `TextBox` search bar.  
 - Maybe use a row filter??  I think I've done that before.
-3) Populate DataGridView with values from input Spreadsheet
+3) Populate `DataGridView` with values from input Spreadsheet
 - Since there are 10001 rows, there should be a progress bar or some sort of way to display to the user that the rows are loading.
-4) DataGridView_SelectionChaged event will fire when user selects a row.  This method will display a second DataGridView.
+4) `DataGridView_SelectionChaged` event will fire when user selects a row.  This method will display a second `DataGridView`.
 5) Need to figure out a way to calculate 10 closest location.  
 - Closest by route?  
   - Would likely need a map provider?
@@ -31,12 +33,13 @@ Initial Thoughts:
   - Need to sort by Lat and then Long
   - Lat/long are nothing but (x,y) coordinates so you just find the difference between the selected (x1,y1) = (0,0)
     and (x2,y2) which is nothing more than solving for the hypotenuse of a right triangle. (c = abs(sqrt(x2^2 + y2^2)))
+  - There's probably a package that will do this for me.
 - Maybe give the option to choose?
 6) Need to validate the input data.
 7) Need to handle duplicate addresses.
 8) What if there are missing Addresses or Coordinates?
 
-Improvements:
+#### Future Improvements
 - Have a map control that will show pinpoints of the 10 closest addresses.
   - Bing Maps?
   - Google Maps?
